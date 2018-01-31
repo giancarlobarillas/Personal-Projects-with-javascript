@@ -2,7 +2,7 @@ var fireworks=[];
 var gravity;
 
 function setup(){
-    createCanvas(400,300);
+    createCanvas(window.innerWidth,300);
     colorMode(HSB);
     gravity=createVector(0,0.2);
     fireworks.push(new Firework());
