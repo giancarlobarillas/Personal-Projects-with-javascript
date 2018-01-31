@@ -5,7 +5,7 @@ function setup(){
     createCanvas(window.innerWidth,300);
     colorMode(HSB);
     gravity=createVector(0,0.2);
-    fireworks.push(new Firework());
+    //fireworks.push(new Firework());
     stroke(255);
     strokeWeight(4);
     background(0);
