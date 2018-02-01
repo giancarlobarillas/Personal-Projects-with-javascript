@@ -6,7 +6,7 @@ function Particle(x,y,hu,firework){
     
     if(this.firework)
     {
-        this.vel=createVector(0,random(-11,-8));
+        this.vel=createVector(0,random(-15,-8));
     }
     else
     {
