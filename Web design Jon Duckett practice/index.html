@@ -4,7 +4,7 @@
         <title> This is the Title of the Page</title>
     </head>
     <body>
-        <h1>This is the Body header 1</h1>
+        <h1 id="top">This is the Body header 1</h1>
         <h2>This is the Body header 2</h2>
         <h3>This is the Body header 3</h3>
         <h4>This is the Body header 4</h4>
@@ -14,12 +14,58 @@
         <p>This is the p element with <b>bold</b> and <i>italics</i> using b and i tags</p>
         <p>This is the p element with <strong>Strong</strong> and <em>emphasis</em> using b and i tags</p>
         <p>This is the p element with superscript and subscript using "sup" and "sub tags: E=MC<sup>2</sup>, CO<sub>2</sub></p>
-        <p>Using the break tag to: <br /> add a new line</p>
+        <p>Using the break tag "br /" to: <br /> add a new line</p>
         <p>Using the horizontal Rules tag "hr /"</p>
         <hr />
         <p>to split a new line. It cannot be nested in another element</p>
-        <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh"><p>Did you ever stop to think. and forget to start again?This holds quotes with added padding, Adaptive to the size of the window</p></blockquote>
-        <q>This is a quote tag and it can be nested in p elements the quotes are added by the tag</q>
+        <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh"><p>This is a blockquote tag that is used for quotes. Did you ever stop to think. and forget to start again?This holds quotes with added padding, Adaptive to the size of the window</p></blockquote>
+        <q>This is a quote tag using "q"  and it can be nested in p elements the quotes are added by the tag</q>
         <p>This shows a Abbreviation tag and acronym tag in the same p element <abbr title="Abbreviations">abbr</abbr> and <acryonym title="acryonym">acryonym</acryonym></p>
+        <address>3201 South State Street(address tag)</address>
+        <p>This shows crossing out words in p tags such as <del>wrong</del> and underline <ins>Right</ins>using del and ins tags</p>
+        <p> <s>Cross out multiple strings</s> using the "s" tag</p>
+        <h3>Ordered list example</h3>
+        <ol>
+            <li>Problem Statement</li>
+            <li>Plan</li>
+            <li>Program</li>
+            <li>Test</li>
+            <li>Release and Publish</li>
+        </ol>
+        <h3>Unordered list example</h3>
+        <ul>
+            <li>Problem Statement</li>
+            <li>Plan</li>
+            <li>Program</li>
+            <li>Test</li>
+            <li>Release and Publish</li>
+        </ul>
+        <h3>Definitions List using dl,dt,dd tags</h3>
+        <dl>
+            <dt>Definition term:dt</dt>
+            <dd>This is the defenition tag used by the tag dd inside the dl tag.This is dynamic and will change depending on the side of the window</dd>
+        </dl>
+        <h3>Nested List</h3>
+        <ul>
+            <li>You can</li>
+            <li>have list</li>
+            <ul>
+                <li>inside of</li>
+                <li>the same list</li>
+                <li>like sublists</li>
+                <ol>
+                    <li>how far</li>
+                    <li>can this</li>
+                    <li>go?</li>
+                </ol>
+            </ul>
+        </ul>
+        <h3>Links</h3>
+        <p>Link on that same page</p>
+        <a href="https://Google.com">Google</a>
+        <p>Link on a new window</p>
+        <a href="https://Google.com" target="_blank">GoogleWindow</a>
+        <p>Link to top of page</p>
+        <a href=#top>Top page Link</a>
     </body>
 <html>
