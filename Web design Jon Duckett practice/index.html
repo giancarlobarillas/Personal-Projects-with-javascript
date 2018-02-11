@@ -4,12 +4,39 @@
         <title> This is the Title of the Page</title>
     </head>
     <body>
+        <h1>Index</h1>
+        <ol>
+            <li><a href="#top">Headers</a></li>
+            <li><a href="#textE">Text Elements</a></li>
+            <li><a href="#ordered">Ordered List</a></li>
+            <li><a href="#unordered">Unordered List</a></li>
+            <li><a href="#deflist">Definitions List t</a></li>
+            <li><a href="#nested">Nested List</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#tablesth">Tables with th</a></li>
+            <li><a href="#tablespan">Tables with Span</a></li>
+            <li><a href="#longtable">Long Tables</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#radio">Radio Buttons</a></li>
+            <li><a href="#checkbox">Checkboxes</a></li>
+            <li><a href="#drop">Dropdown Menus</a></li>
+            <li><a href="#fileInput">File Inputs</a></li>
+            <li><a href="#labels">Lables</a></li>
+            <li><a href="#fieldsets">Fieldsets</a></li>
+            <li><a href="#validation">Form Validations</a></li>
+            <li><a href="#formInputs">Email,Url, and search Inputs</a></li>
+            <li><a href="#idanddivs">Divs and ID's</a></li>
+            <li><a href="#iframes">IFrames</a></li>
+        </ol>
         <h1 id="top">This is the Body header 1</h1>
         <h2>This is the Body header 2</h2>
         <h3>This is the Body header 3</h3>
         <h4>This is the Body header 4</h4>
         <h5>This is the Body header 5</h5>
         <h6>This is the Body header 6</h6>
+        <h3 id="textE">Text elements</h3>
         <p>this is the p element in the page</p>
         <p>This is the p element with <b>bold</b> and <i>italics</i> using b and i tags</p>
         <p>This is the p element with <strong>Strong</strong> and <em>emphasis</em> using b and i tags</p>
@@ -24,7 +51,7 @@
         <address>3201 South State Street(address tag)</address>
         <p>This shows crossing out words in p tags such as <del>wrong</del> and underline <ins>Right</ins>using del and ins tags</p>
         <p> <s>Cross out multiple strings</s> using the "s" tag</p>
-        <h3>Ordered list example</h3>
+        <h3 id="ordered">Ordered list example</h3>
         <ol>
             <li>Problem Statement</li>
             <li>Plan</li>
@@ -32,7 +59,7 @@
             <li>Test</li>
             <li>Release and Publish</li>
         </ol>
-        <h3>Unordered list example</h3>
+        <h3 id="unorderded">Unordered list example</h3>
         <ul>
             <li>Problem Statement</li>
             <li>Plan</li>
@@ -40,12 +67,12 @@
             <li>Test</li>
             <li>Release and Publish</li>
         </ul>
-        <h3>Definitions List using dl,dt,dd tags</h3>
+        <h3 id="deflist">Definitions List using dl,dt,dd tags</h3>
         <dl>
             <dt>Definition term:dt</dt>
             <dd>This is the defenition tag used by the tag dd inside the dl tag.This is dynamic and will change depending on the side of the window</dd>
         </dl>
-        <h3>Nested List</h3>
+        <h3 id="nested">Nested List</h3>
         <ul>
             <li>You can</li>
             <li>have list</li>
@@ -60,14 +87,14 @@
                 </ol>
             </ul>
         </ul>
-        <h3>Links</h3>
+        <h3 id="links">Links</h3>
         <p>Link on that same page</p>
         <a href="https://Google.com">Google</a>
         <p>Link on a new window</p>
         <a href="https://Google.com" target="_blank">GoogleWindow</a>
         <p>Link to top of page</p>
         <a href=#top>Top page Link</a>
-        <h3>Adding images using img tag,src tag, alt tag, width and height tag</h3>
+        <h3 id="images">Adding images using img tag,src tag, alt tag, width and height tag</h3>
         <p>images can be placed inside p tags and use html align but CSS should be used instead</p>
         <p>Align can take in strings of left,right,top,middle and bottom</p>
         <p>image in figure tag</p>
@@ -75,7 +102,7 @@
             <img src="keyboard.jpg" alt="Razor keyboard image" title="10keyless keyboard from razors chroma series of mechanical keyboards" width="600" height="450"/>
             <figcaption>Razor Mechanical keyboard, Tournament Edition</figcaption>
         </figure>
-        <h3>Tables using table,tr,td tags</h3>
+        <h3 id="tables">Tables using table,tr,td tags</h3>
         <table>
             <tr>
                 <td>tr</td>
@@ -88,7 +115,7 @@
                 <td>tableData</td>
             </tr>
         </table>
-        <h3>Tables headers with th</h3>
+        <h3 id="tablesth">Tables headers with th</h3>
         <table>
             <tr>
                 <th></th>
@@ -106,7 +133,7 @@
                 <td>4</td>
             </tr>
         </table>
-        <h3>Table with span rows and columns</h3>
+        <h3 id="tablespan">Table with span rows and columns</h3>
         <table>
             <tr>
                 <th></th>
@@ -126,7 +153,7 @@
                 <td colspan="3">Math 333</td>
             </tr>
         </table>
-        <h3>Long Tables using thead,tbody, and tfoot tags</h3>
+        <h3 id="longtable">Long Tables using thead,tbody, and tfoot tags</h3>
         <table>
             <thead>
                 <th>Date</th>
@@ -156,27 +183,91 @@
                 <td>12 Hours</td>
             </tfoot>
         </table>
-        <h3>Forms</h3>
+        <h3 id="forms">Forms</h3>
         <p>input tag with type text: <input type="text" name="input tag with type text" size="15" maxlength="30"/></p>
         <p>input tag with type password: <input type="password" name="input tag with type password" size="15" maxlength="30"/></p>
         <p>Comments</p>
         <textarea name="comments" cols="20" rows="4">This is a textarea, cols, rows, and name tags...</textarea>
-        <h3>Radio Button</h3>
+        <h3 id="radio">Radio Button</h3>
         <p>(input,type,name,value tags)Select one of these: </p>
         <input type="radio" name="stuff" value="Bed"/>Bed
         <input type="radio" name="stuff" value="Desk"/>Desk
         <input type="radio" name="stuff" value="Computer"/>Computer
-        <h3>Checkboxes</h3>
+        <h3 id="checkbox">Checkboxes</h3>
         <p>Select one of these: </p>
         <input type="checkbox" name="stuff" value="Bed"/>Bed
         <input type="checkbox" name="stuff" value="Desk"/>Desk
         <input type="checkbox" name="stuff" value="Computer"/>Computer
-        <h3>Drop down</h3>
+        <h3 id="drop">Drop down</h3>
         <select name="devices">
             <option value="ipad">Ipad</option>
             <option value="iphone">Iphone</option>
             <option value="ipod">Ipod</option>
         </select>
-        
+        <p>Multi select box</p>
+        <select name="apple products" size=3 multiple="multipe">
+            <option value="ipad" selected="selected">Ipad</option>
+            <option value="iphone">Iphone</option>
+            <option value="ipod" selected="selected">Ipod</option>
+            <option value="iTV">Apple TV</option>
+        </select>
+        <h3 id="fileInput">File input and Buttons</h3>
+        <p>(input type=file)upload your song in MP formate:</p>
+        <input type="file" name="user-song"/><br/>
+        <input type="submit" value="input type=submit"/>
+        <input type="image" src="keyboard.jpg" width="100" width="50">
+        <h3 id="labels">Labels</h3>
+        <label>Age: <input type="text" name=age/></label>
+        <br />
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+        <h3 id="fieldsets">Grouping Forms with fieldset tag</h3>
+        <fieldset>
+            <legend>Contact Info(legend tag)</legend>
+            <label>Email:(Label tag)<br/><input type="text" name="email"/></label>
+            <br/>
+            <label>Mobile:<br/><input type="text" name="Mobile"/></label>
+            <br/>
+            <label>Telephone:<br/><input type="text" name="Telephone"/></label>
+        </fieldset>
+        <h3 id="validation">Form Validation and date input</h3>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" required="required"/><br>
+            <label for="password">Password:</label>
+            <input type="text" name="password" required="required"/><br/>
+            <input type="submit" value="submit"/>
+        </form>
+        <p>For dates use type "date" for input</p>
+        <label for="depart">Depart Date: </label>
+        <input type="date" name="depart"/>
+        <input type="submit" value="submit"/>
+        <h3 id="formInputs">Email,URL, Search Input</h3>
+        <form>
+            <p>please enter email(input type="email")</p>
+            <input type="email" name="email"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <form>
+            <p>please enter website address(input type="url")</p>
+            <input type="url" name="website"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <form>
+            <p>Search:(input type="search" and placeholder)</p>
+            <input type="search" name="website"/ placeholder="Enter keyword">
+            <input type="submit" value="Submit"/>
+        </form>
+        <h3 id="idanddivs">ID and div</h3>
+        <p>add index at start and give id to all h3 tags and self-reference link</p>
+        <p>DIV tag is used to group content. Encapsulate content in div to organize information</p>
+        <h3 id=iframes>Iframes</h3>
+        <iframe
+                width="450"
+                height="350" 
+                src="http://maps.google.co.uk/maps?q=Chicago&amp;output=embed">
+        </iframe>
     </body>
 <html>
