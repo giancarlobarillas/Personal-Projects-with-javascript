@@ -11,5 +11,36 @@ h3{
     font-size:200%;
     color:rgb(0,0,255);
     background-color: gainsboro;
+    font-style:italic;
     opacity: 1;
+    text-transform: uppercase;
 }
+
+.textdecoration1{
+    text-decoration: underline;
+}
+.textdecoration2{
+    text-decoration: overline;
+}
+.textdecoration3{
+    text-decoration: line-through;
+}
+
+.texttransformup{
+    text-transform: uppercase;
+}
+.texttransformlow{
+    text-transform:lowercase;
+}
+.texttransformcap{
+    text-transform: capitalize;
+}
+.letterspacing{
+    letter-spacing: 0.2em;
+}
+.wordspacing{
+    word-spacing: 1em;
+}
+
+
+
