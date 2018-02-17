@@ -14,6 +14,8 @@ h3{
     font-style:italic;
     opacity: 1;
     text-transform: uppercase;
+    text-align: center;
+    margin: 2.5%;
 }
 
 .textdecoration1{
@@ -41,6 +43,87 @@ h3{
 .wordspacing{
     word-spacing: 1em;
 }
+.alignleft{
+    text-align: left;
+}
+.aligncenter{
+    text-align: center;
+}
+.alignright{
+    text-align: right;
+}
+.indent{
+    text-indent: 20px;
+}
+
+li.l1{
+    background-color: #eeeeee;
+    color:black;
+    text-shadow: 1px 1px 9px #000000;
+}
+li.l2{
+    background-color: #dddddd;
+    color:black;
+    text-shadow: 1px 1px 3px #666666;
+}
+li.l3{
+    background-color: #cccccc;
+    color:#ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+li.l4{
+    background-color: #bbbbbb;
+    color:#cccccc;
+    text-shadow: -1px -2px #666666;
+}
+li.l5{
+    background-color: #aaaaaa;
+    color:#ffffff;
+    text-shadow: -1px -1px #666666;
+}
+li.letterTest:first-letter{
+    font-size: 200%;
+}
+li.lineTest:first-line{
+    font-weight: bold;
+}
+a:link{
+    color:darkcyan;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+a:active{
+    color:darkcyan;
+}
+
+input.buttontest:hover{
+    background-color:skyblue;
+}
+input.buttontest:active{
+    background-color: aqua
+}
+input.buttontest{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+div{
+    height:300px;
+    width:400px;
+    background-color: orange;
+}
+p.divp{
+    height:inherit;
+    width:50%;
+    background-color: lightcoral;
+}
+
 
 
 
