@@ -123,6 +123,43 @@ p.divp{
     width:50%;
     background-color: lightcoral;
 }
+li.borderbasic{
+    border-width: 2px;
+    border-style: solid;
+}
+li.borderthick{
+    border-width: thick;
+    border-style: solid;
+}
+li.borderdef{
+    border-width: 1px 4px 12px 4px;
+    border-style: solid;
+}
+li.solidb{
+    border-style: solid;
+}
+li.dottedb{
+    border-style: dotted;
+}
+li.dashedb{
+    border-style: dashed;
+}
+li.doubleb{
+    border-style: double;
+}
+li.grooveb{
+    border-style: groove;
+}
+li.ridgeb{
+    border-style: ridge;
+}
+li.insetb{
+    border-style: inset;
+}
+li.outsetb{
+    border-style: outset;
+}
+
 
 
 
