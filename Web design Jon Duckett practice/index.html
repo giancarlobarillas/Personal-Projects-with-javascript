@@ -388,13 +388,13 @@
             <p class=divp>This section goes over the use of DIV and CSS. This examples shows that div elements can have a fixed height and width. The p element inside can inherit the div attirbutes with percentages. If the content overflows then there are two options. overflow:hidden or overflow scroll</p>
         </div>
         <h3>Borders</h3>
-        <p> To add borders you need BOTH style and width borders:</p>
+        <h4> To add borders you need BOTH style and width borders:</h4>
         <ul>
             <li class="borderbasic">border-width:#px</li>
             <li class="borderthick">border-width:thick;</li>
             <li class="borderdef">border-width:#px #px #px #px;</li>
         </ul>
-        <p>Border Styles</p>
+        <h4>Border Styles</h4>
         <ul>
             <li class="solidb">border-style: solid;</li>
             <li class="dottedb">dotted</li>
@@ -405,6 +405,57 @@
             <li class="insetb">inset</li>
             <li class="outsetb">outset</li>
         </ul>
-        <p>Border Colors</p>
+        <h4>Border Colors</h4>
+        <p class="bordercolors">Syntax: border-color:color; color could be hex,text,or RGB</p>
+        <h4>SHORT HAND</h4>
+        <p class="shorthand">borders cand be defined by just: border: attibutes</p>
+        <h4>Border Shapes</h4>
+        <ul>
+            <li class="roundborder">Rounded corners (border-radius:10px;)</li>
+            <li class="circleborder">This is an advance border</li>
+            <li>Border-radius:#em #em #em #em /.....</li>
+            <li class="boxshadow">Borders with shadows(Box-shadows: #px;)</li>
+        </ul>
+        <h4>Border content formating</h4>
+        <p class="paddingp">This is a p element that contains a padding which creates space between the border and the content.<br>padding:#px;</p>
+        <p class="marginp">This is a p element that conatains margins. Which shifts the border a number of spaces and is directional.<br>margin:#px;</p>
+        <p class="centerb">This is a p element that is centered using margin left and right </p>
+        <h3>List formats</h3>
+        <h4>horizontal list</h4>
+        <ul>
+            <li class="hlist">-Example</li>
+            <li class="hlist">-of</li>
+            <li class="hlist">-horizontal</li>
+            <li class="hlist">-list(using display:inline;)</li>
+        </ul>
+        <h4>hidden list</h4>
+        <ul>
+            <li class="hlist">-Example</li>
+            <li class="hlist hiddenl">-of</li>
+            <li class="hlist">-hidden</li>
+            <li class="hlist">-horizontal</li>
+            <li class="hlist">-list(using visibiltiy:hidden;)</li>
+        </ul>
+        <h4>List syles</h4>
+        <ol class="dotformat">
+            <li>Changing list styles:</li>
+            <li>by list-style-type:lower-roman</li>
+            <li>upper-roman</li>
+            <li>decimal</li>
+            <li>decimal-leading-zero</li>
+            <li>lower-alpha</li>
+            <li>upper-alpha</li>
+            <li>lower-greek</li>
+            <ul class="unstyle">
+                <li>Unorder list can change too:</li>
+                <li>none</li>
+                <li>circle</li>
+                <li>square</li>
+            </ul>
+            <ul class="imagelistformat">
+                <li>Or by images as well:</li>
+                <li>list-style-image:url(#)</li>
+            </ul>
+        </ol>
     </body>
 <html>

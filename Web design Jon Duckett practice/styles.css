@@ -4,6 +4,8 @@
     color:black;
     background-color:white;
     opacity: inherit;
+    text-align: left;
+    margin: auto;
     
 }
 h3{
@@ -124,8 +126,8 @@ p.divp{
     background-color: lightcoral;
 }
 li.borderbasic{
-    border-width: 2px;
-    border-style: solid;
+    border-width: 5px;
+    border: solid;
 }
 li.borderthick{
     border-width: thick;
@@ -159,7 +161,67 @@ li.insetb{
 li.outsetb{
     border-style: outset;
 }
-
+p.bordercolors{
+    border-color: blue;
+    border-style: solid;
+    border-width: thick
+}
+p.shorthand{
+    border: solid black 10px;
+}
+li.roundborder{
+    border:5px solid red;
+    width:250px;
+    border-radius: 10px;
+}
+li.circleborder{
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    border:solid blue;
+    width:200px;
+}
+p.paddingp{
+    border:solid orange;
+    padding:20px;
+    width:200px;
+}
+p.marginp{
+    border-color: chocolate;
+    border-style: solid;
+    margin-left: 200px;
+    width:200px;
+    
+}
+p.centerb{
+    border-color: chartreuse;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+}
+li.boxshadow{
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px gray;
+    
+}
+li.hlist{
+    display:inline;
+}
+li.hiddenl{
+    visibility: hidden;
+}
+ul.hor{
+    display: inline;
+}
+ol.dotformat{
+    list-style-type:lower-greek;
+}
+ul.unstyle{
+    list-style-type: circle;
+}
+ul.imagelistformat{
+    list-style-image: url(smile.jpg);
+}
 
 
 
