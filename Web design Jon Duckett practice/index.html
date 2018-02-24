@@ -463,5 +463,72 @@
                 <li> The short hand way is using LIST-STYLE:...;</li>
             </ul>
         </ol>
+        <h3>Table Properties</h3>
+        <h4>Tables can have format such as:</h4>
+        <ul>
+            <li>text-align:right/left/...</li>
+            <li>width:#px;</li>
+            <li>padding#px;</li>
+            <li>text-transform:uppercase;</li>
+            <li>background-color:color;</li>
+            <li>border:...;</li>
+            <li>and any CSS formats that relate to words.</li>
+            <li>example below:</li>
+        </ul>
+        <table class="addpad">
+            <thead >
+                <th class="tableheader">Date</th>
+                <th class="tableheader">Classes</th>
+                <th class="tableheader">Study</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st of January</th>
+                    <td>2 hours</td>
+                    <td>4 hours</td>
+                </tr>
+                <tr class="even">
+                    <th>2st of January</th>
+                    <td>3 hours</td>
+                    <td>6 hours</td>
+                </tr>
+                <tr>
+                    <th>3st of January</th>
+                    <td>1 hours</td>
+                    <td>2 hours</td>
+                </tr>
+            </tbody>
+            <tr class="even">
+                <td></td>
+                <td>6 Hours</td>
+                <td>12 Hours</td>
+            </tr>
+        </table>
+        <h4>Empty-cells: show and hide; and table border formats</h4>
+        <p>Table with empty-cell:hide;</p>
+        <p>Table with border-spacing:#px;</p>
+        <table class="hideblank">
+            <tr>
+                <td class="datastyle">1</td>
+                <td class="datastyle">2</td>
+            </tr>
+            <tr>
+                <td class="datastyle">3</td>
+                <td class="datastyle"></td>
+            </tr>
+        </table>
+        <p> table with empty-cell:show;</p>
+        <p>table with border-collapse:collapse or seperate;</p>
+        <table class="showblank">
+            <tr>
+                <td class="datastyle">1</td>
+                <td class="datastyle">2</td>
+            </tr>
+            <tr>
+                <td class="datastyle">3</td>
+                <td class="datastyle"></td>
+            </tr>
+        </table>
+        <h4>Styling forms in CSS</h4>
     </body>
 <html>

@@ -231,6 +231,30 @@ li.basicshift{
 li.insideshift{
     list-style-position: inside;
 }
+th.tableheader{
+    text-transform: uppercase;
+    text-align: left;
+    border-top:solid lightgray 2px;
+    border-bottom: solid black 2px;
+}
+tr.even{
+    background-color: lightgray;
+}
+table.addpad{
+    width: 600px;
+    margin: auto;
+}
+td.datastyle{
+    border:1px solid blue;
+    padding 15px;
+}
+table.hideblank{
+    empty-cells: hide;
+    width=100px;
+}
+table.showblank{
+    empty-cells: show;
+}
 
 
 
