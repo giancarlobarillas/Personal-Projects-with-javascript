@@ -222,6 +222,15 @@ ul.unstyle{
 ul.imagelistformat{
     list-style-image: url(smile.jpg);
 }
+ul.srinklist{
+    width:250px;
+}
+li.basicshift{
+    list-style-position: outside;
+}
+li.insideshift{
+    list-style-position: inside;
+}
 
 
 
