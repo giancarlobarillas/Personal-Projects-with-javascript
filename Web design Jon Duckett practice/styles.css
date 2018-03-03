@@ -115,7 +115,7 @@ input.buttontest{
     color: white;
     font-family: cursive;
 }
-div{
+div.divcolor{
     height:300px;
     width:400px;
     background-color: orange;
@@ -231,4 +231,71 @@ li.basicshift{
 li.insideshift{
     list-style-position: inside;
 }
+th.tableheader{
+    text-transform: uppercase;
+    text-align: left;
+    border-top:solid lightgray 2px;
+    border-bottom: solid black 2px;
+}
+tr.even{
+    background-color: lightgray;
+}
+table.addpad{
+    width: 600px;
+    margin: auto;
+}
+td.datastyle{
+    padding 15px;
+    border:2px solid black;
+    background-color: lightblue;
+}
+table.hideblank{
+    width:100px;
+    text-align: center;
+    empty-cells: hide;
+    border-spacing: 5px 15px;
 
+<<<<<<< HEAD
+=======
+}
+table.showblank{
+    width: 100px;
+    text-align: center;
+    empty-cells: show;
+     border-collapse:collapse;
+}
+fieldset.fieldsetstyle{
+    width:200px;
+    border:1px solid #dcdcdc;
+    border-radius: 10px;
+    padding:20px;
+    text-align: left;
+}
+legend.legendstyle{
+    background-color: #efefef;
+    border:1px solid #dcdcdc;
+    border-radius: 10px;
+    padding:10px 20px;
+    text-align: left;
+    text-transform: uppercase;   
+}
+div.submitrightside{
+    text-align: right;
+}
+input.buttonCSS{
+    border-radius: 10px;
+    text-shadow: 0px 1px 1px #ffffff;
+    border-bottom: 2px solid #b2b2b2;
+    background-color: #b9e4e3;
+}
+input.buttonCSS:hover{
+    background-color:red;
+    color:white;
+}
+a.cursorCSS{
+    cursor: move;
+}
+
+
+
+>>>>>>> 623cb37e4f4b6093e3514c5e4029becb1eebc4fd

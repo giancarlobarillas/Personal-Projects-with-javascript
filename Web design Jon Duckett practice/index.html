@@ -30,6 +30,13 @@
             <li><a href="#formInputs">Email,Url, and search Inputs</a></li>
             <li><a href="#idanddivs">Divs and ID's</a></li>
             <li><a href="#iframes">IFrames</a></li>
+            <li><a href="#externalCSS">External CSS</a></li>
+            <li><a href="#cssformat">CSS Format</a></li>
+            <li><a href="#divandcss">DIV and CSS</a></li>
+            <li><a href="#borders">Borders</a></li>
+            <li><a href="#listformat">List Format</a></li>
+            <li><a href="#tableprop">Table Properties</a></li>
+            <li><a href="#styleformcss">Styling Forms in CSS CSS</a></li>
         </ol>
         <h3 id="top">Headers</h3>
         <h1>This is the Body header 1</h1>
@@ -265,14 +272,14 @@
         <h3 id="idanddivs">ID and div</h3>
         <p>add index at start and give id to all h3 tags and self-reference link</p>
         <p>DIV tag is used to group content. Encapsulate content in div to organize information</p>
-        <h3 id=iframes>Iframes</h3>
+        <h3 id="iframes">Iframes</h3>
         <iframe
                 width="450"
                 height="350" 
                 src="http://maps.google.co.uk/maps?q=Chicago&amp;output=embed">
         </iframe>
         <h1>CSS codes</h1>
-        <h3>External css</h3>
+        <h3 id="externalCSS">External css</h3>
         <ol>
             <li>Create new file ending with css</li>
             <li>Create a link in your header file</li>
@@ -284,7 +291,7 @@
             </ul>
             <li>Save both html and css file to run</li>
         </ol>
-        <h3>CSS format</h3>
+        <h3 id="cssformat">CSS format</h3>
         <p> html_element {<br> css_tags;<br>}</p>
         <p> For DIV that have classes</p>
         <p>.className {<br> css_tags;<br>}</p>
@@ -383,11 +390,11 @@
                 </ul>
             </ul>
         </fieldset>
-        <h3>DIV and CSS</h3>
-        <div>
+        <h3 id="divandcss">DIV and CSS</h3>
+        <div class="divcolor">
             <p class=divp>This section goes over the use of DIV and CSS. This examples shows that div elements can have a fixed height and width. The p element inside can inherit the div attirbutes with percentages. If the content overflows then there are two options. overflow:hidden or overflow scroll</p>
         </div>
-        <h3>Borders</h3>
+        <h3 id="borders">Borders</h3>
         <h4> To add borders you need BOTH style and width borders:</h4>
         <ul>
             <li class="borderbasic">border-width:#px</li>
@@ -420,7 +427,7 @@
         <p class="paddingp">This is a p element that contains a padding which creates space between the border and the content.<br>padding:#px;</p>
         <p class="marginp">This is a p element that conatains margins. Which shifts the border a number of spaces and is directional.<br>margin:#px;</p>
         <p class="centerb">This is a p element that is centered using margin left and right </p>
-        <h3>List formats</h3>
+        <h3 id="listformat">List formats</h3>
         <h4>horizontal list</h4>
         <ul>
             <li class="hlist">-Example</li>
@@ -463,8 +470,89 @@
                 <li> The short hand way is using LIST-STYLE:...;</li>
             </ul>
         </ol>
+<<<<<<< HEAD
         <h3>Layout</h3>
         <p>For layouts i will have seperate links to every type of layout.</p>
         <h4>Normal Flow</h4>
+=======
+        <h3 id="tableprop">Table Properties</h3>
+        <h4>Tables can have format such as:</h4>
+        <ul>
+            <li>text-align:right/left/...</li>
+            <li>width:#px;</li>
+            <li>padding#px;</li>
+            <li>text-transform:uppercase;</li>
+            <li>background-color:color;</li>
+            <li>border:...;</li>
+            <li>and any CSS formats that relate to words.</li>
+            <li>example below:</li>
+        </ul>
+        <table class="addpad">
+            <thead >
+                <th class="tableheader">Date</th>
+                <th class="tableheader">Classes</th>
+                <th class="tableheader">Study</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st of January</th>
+                    <td>2 hours</td>
+                    <td>4 hours</td>
+                </tr>
+                <tr class="even">
+                    <th>2st of January</th>
+                    <td>3 hours</td>
+                    <td>6 hours</td>
+                </tr>
+                <tr>
+                    <th>3st of January</th>
+                    <td>1 hours</td>
+                    <td>2 hours</td>
+                </tr>
+            </tbody>
+            <tr class="even">
+                <td></td>
+                <td>6 Hours</td>
+                <td>12 Hours</td>
+            </tr>
+        </table>
+        <h4>Empty-cells: show and hide; and table border formats</h4>
+        <p>Table with empty-cell:hide;</p>
+        <p>Table with border-spacing:#px;</p>
+        <table class="hideblank">
+            <tr>
+                <td class="datastyle">1</td>
+                <td class="datastyle">2</td>
+            </tr>
+            <tr>
+                <td class="datastyle">3</td>
+                <td class="datastyle"></td>
+            </tr>
+        </table>
+        <p> table with empty-cell:show;</p>
+        <p>table with border-collapse:collapse or seperate;</p>
+        <table class="showblank">
+            <tr>
+                <td class="datastyle">1</td>
+                <td class="datastyle">2</td>
+            </tr>
+            <tr>
+                <td class="datastyle">3</td>
+                <td class="datastyle"></td>
+            </tr>
+        </table>
+        <h3 id="styleformcss">Styling forms in CSS</h3>
+        <h4>styling fieldsets and legends</h4>
+        <p>fieldsets and legends can have any css similar to a text element that includes border,padding, color, and any other css</p>
+        <fieldset class="fieldsetstyle">
+            <legend class="legendstyle">Legend</legend>
+            <label>Name:<input type="text"></label>
+            <label>Email:<input type="email"></label>
+            <div class="submitrightside">
+                <input class="buttonCSS"type=submit value="submit">
+            </div>
+        </fieldset>
+        <a class="cursorCSS" href="http://google.com">Google link with cursor CSS</a>
+>>>>>>> 623cb37e4f4b6093e3514c5e4029becb1eebc4fd
     </body>
 <html>
