@@ -1,5 +1,6 @@
 var count=0;
 var count2=0;
+var count3=0;
 function changing(){
     if(count==0)
         {
@@ -13,9 +14,28 @@ function changing(){
         }
 }
 function changingimage2(){
-    document.getElementById("image2").src="images/linenote.PNG";
+    if(count2==0)
+        {
+            document.getElementById("image2").src="images/linenote.PNG";
+            count2=1;
+        }
+    else
+        {
+            document.getElementById("image2").src="images/emptyline.PNG";
+            count2=0;
+        }
 }
-function changeboth(){
-    document.getElementById("image").src="images/midnotetop.PNG";
-    document.getElementById("image2") src="images/midnotebot.PNG";
+function changemid(){
+    if(count3==0)
+    {
+        document.getElementById("image").src="images/midnotetop.PNG";
+        document.getElementById("image2").src="images/midnotebot.PNG";
+        count3=1;
+    }
+    else
+    {
+        document.getElementById("image").src="images/emptyline.PNG";
+        document.getElementById("image2").src="images/emptyline.PNG";
+        count3=0;
+    }
 }
