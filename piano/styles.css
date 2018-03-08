@@ -12,10 +12,19 @@
     vertical-align: middle;
 }
 .centerF{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    top:17%;
+    left:6%;
+    width: 25%;
+    height: 75px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size:0;
+    
+    
 }
 .fline{
-    
+    align-items: center;
+    justify-content: center;
 }
