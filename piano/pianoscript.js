@@ -39,3 +39,12 @@ function changemid(){
         count3=0;
     }
 }
+function myFunction() {
+    for(var i=0;i<9;i++){
+    var node = document.createElement("LI");
+    var divadd = document.createElement("div");
+    divadd.innerHTML=i+1;
+    node.appendChild(divadd);
+    document.getElementById("myList").appendChild(node);   
+    }
+}
