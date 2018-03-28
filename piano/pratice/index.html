@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Planet Profiles</title>
+    <script src="jquery.js"></script>
+    <style type="text/css">
+        #container{
+            height: 50px;
+            width: 50px;
+            position: relative;
+            outline: 1px solid black;
+        }
+        .grass{
+            height: 10px;
+            width: 10px;
+            position: relative;
+            float: left;
+            background-color: green
+        }
+        .dirt{
+            height: 10px;
+            width: 10px;
+            position: relative;
+            float: left;
+            background-color: tan;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="grass"></div>
+        <div class="grass"></div>
+        <div class="grass"></div>
+        <div class="grass"></div>
+    </div>
+    <script>
+        var mapArray=[[0,1,1,0,0],[0,1,1,0,0],[0,1,1,0,0],[0,1,1,0,0],[0,1,1,0,0]];
+        
+        function drawMap(){
+            for(var i=0;i<mapArray.length;i++){
+                for(var j=0;j<mapArray.length;j++){
+                    if(parseInt(mapArray[i][j])==0)
+                        {
+                            $('#container').append('<div class="grass"></div>');
+                        }
+                    if(parseInt(mapArray[i][j])==1)
+                        {
+                            $('#container').append('<div class="dirt"></div>');
+                        }
+                }
+            }
+        }
+        window.onload=function(){
+            drawMap();
+        }
+            
+    }
+    </script>
+</body>
+</html>
