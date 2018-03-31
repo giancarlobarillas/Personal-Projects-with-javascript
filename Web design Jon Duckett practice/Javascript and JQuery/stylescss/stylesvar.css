@@ -1,6 +1,66 @@
 .headdiv{
-    color:blue;
+    color:black;
+    background-color:azure;
+    margin: 20px auto 50px auto;
+    font-size: 20px;
+    max-width: 800px;
+    padding:0px 50px 0px 50px;
+    border:10px solid black;
 }
 .jsdiv{
-    color:aqua;
+    color:black;
+
+}
+#content{
+    background-color: #fff;
+    border: 5px solid black;
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    max-width: 580px;
+    min-height: 4em;
+    overflow: auto;
+    text-align: center;
+}
+h1{
+    font-family: monospace;
+    
+}
+h2{
+    font-family: monospace;
+
+}
+.title{
+    background: url('../images/elderlogo.png');
+    margin: 0px auto 0px auto;
+    width:278px;
+    height: 112px;
+    
+}
+body{
+    background: url('../images/tilesbackground.jpg');
+    text-align: center;
+    background-size:cover;
+}
+#bob{
+    background-color: #f84c53;
+    color: #fff;
+    width: auto;
+    height: 1 em;
+    padding: 0.5em 0.75em;
+    float: right;
+    position: relative;
+    top: 1em;
+    right: 2em;  
+}
+#cost{
+    position: relative;
+    float: right;
+    background-color: blue;
+    color: wheat;
+    width: auto;
+    height: 1em;
+    top:0.5em;
+    right: 2em;
+    font-size: 2em;
 }
