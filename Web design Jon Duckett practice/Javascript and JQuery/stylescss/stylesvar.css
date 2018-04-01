@@ -64,3 +64,14 @@ body{
     right: 2em;
     font-size: 2em;
 }
+#title{
+    font-size: 40px;
+    font-style: italic;
+}
+#note{
+    background-color: firebrick;
+    border-style: solid;
+    border-radius: 20px;
+    color:darkorange;
+    font-size: 20px;
+}
