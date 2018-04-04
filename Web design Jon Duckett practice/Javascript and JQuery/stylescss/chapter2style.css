@@ -1,0 +1,36 @@
+body {
+    background-image: url("../images/apartments.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: gray;
+    background-attachment: fixed;
+}
+.headdiv{
+    text-align: center;
+    background-color: orange;
+    border:solid 5px yellow;
+    border-radius: 20px;
+    font-size: 15px;
+    max-width: 500px;
+    color: white;
+    margin:0 auto 0 auto;
+}
+h1.title{
+    background: black url(../images/roomlogo.PNG) no-repeat;
+    height: 250px;
+    width: 250px;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+#message{
+    float: left;
+    clear: left;
+    background-color: orange;
+    width:190px;
+    padding: 1em 1.87em;
+    text-align: center;
+}

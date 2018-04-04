@@ -41,6 +41,7 @@ body{
     background: url('../images/tilesbackground.jpg');
     text-align: center;
     background-size:cover;
+    background-repeat: n
 }
 #bob{
     background-color: #f84c53;
