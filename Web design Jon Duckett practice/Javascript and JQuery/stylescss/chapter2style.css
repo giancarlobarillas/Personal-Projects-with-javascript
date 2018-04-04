@@ -44,7 +44,7 @@ h1.title{
     right: 15%;
     top: 0;
 }
-#apartmentName{
+#apartmentName,#second,#first{
     color:orange;
     font-size: 25px;
     border-top: white;
@@ -52,6 +52,7 @@ h1.title{
     border-left: black;
     border-right: black;
     border-style: solid;
+    margin-top: 10px;
 }
 #apartments{
     font-size:100px;
@@ -62,3 +63,7 @@ p{
     color:gray;
     margin: 0; 
 }
+h2{
+    color:cadetblue;
+}
+
