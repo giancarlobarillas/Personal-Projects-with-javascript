@@ -45,5 +45,20 @@ h1.title{
     top: 0;
 }
 #apartmentName{
-    color:white;
+    color:orange;
+    font-size: 25px;
+    border-top: white;
+    border-bottom: white;
+    border-left: black;
+    border-right: black;
+    border-style: solid;
+}
+#apartments{
+    font-size:100px;
+    margin: 0;
+    color:#FA0
+}
+p{
+    color:gray;
+    margin: 0; 
 }
