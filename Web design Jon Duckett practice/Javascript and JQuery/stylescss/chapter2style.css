@@ -34,3 +34,16 @@ h1.title{
     padding: 1em 1.87em;
     text-align: center;
 }
+#info{
+    background-color: black;
+    color: white;
+    width: 200px;
+    min-height: 100%;
+    text-align: center;
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+#apartmentName{
+    color:white;
+}
