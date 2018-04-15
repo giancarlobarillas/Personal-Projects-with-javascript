@@ -42,7 +42,7 @@ ul{
 li{
     background-color: #5F021F;
 	color: white;
-	list-style-type: none;
+	list-style-type:none ;
     font-size: 35px;
     padding: 10px;
     border-top: #cc5500;
@@ -56,6 +56,11 @@ li{
 
 .cold{
     background-color: aqua;
+    color: black;
+    text-shadow: 3px 2px 1px gray; 
+}
+.hot{
+    background-color: #E32636;
     color: white;
     text-shadow: 3px 2px 1px gray; 
 }
