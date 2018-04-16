@@ -64,3 +64,12 @@ li{
     color: white;
     text-shadow: 3px 2px 1px gray; 
 }
+
+.remove{
+     background-color: darkgray;
+	color: white;
+	background-image: url("../images/icon-trash.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	text-shadow: 3px 2px 1px gray; 
+}
